@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect } from "react"
-import { ChevronDown } from "lucide-react"
+import { ChevronUp } from "lucide-react"
 import Link from "next/link"
 import Navbar from "@/components/navbar"
 import Hero from "@/components/hero"
@@ -57,7 +57,7 @@ export default function Home() {
             href="#hero"
             className="rounded-full bg-primary p-2 text-primary-foreground hover:bg-primary/90 transition-all duration-300"
           >
-            <ChevronDown className="h-6 w-6" />
+            <ChevronUp className="h-6 w-6" />
             <span className="sr-only">Scroll to top</span>
           </Link>
         </div>
