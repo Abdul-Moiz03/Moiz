@@ -80,9 +80,12 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="mt-6 pt-6 border-t">
-                <p className="font-medium text-center">Available for freelance projects and full-time opportunities</p>
-              </div>
+              <div className="mt-8 pt-6 border-t border-primary/10">
+                  <div className="contact-availability bg-gradient-to-r from-primary/10 to-primary/5 rounded-lg p-4 text-center">
+                    <p className="font-medium">Available for freelance projects and full-time opportunities</p>
+                    <p className="text-sm text-muted-foreground mt-1">Let's create something amazing together!</p>
+                  </div>
+                </div>
             </CardContent>
           </Card>
         </div>
