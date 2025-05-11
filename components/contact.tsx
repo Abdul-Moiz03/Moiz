@@ -48,24 +48,27 @@ export default function Contact() {
                       </div>
                     </div>
                   </div>
-<Link
-                          href="https://linkedin.com/in/abdulmoiz22/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-muted-foreground hover:text-primary hover:underline text-sm"
-                        >
-                  <div className="contact-method bg-card hover:bg-primary/5 p-4 rounded-xl transition-all duration-300">
-                    <div className="flex flex-col items-center text-center gap-3">
-                      <div className="rounded-full bg-primary/10 p-4 contact-icon">
-                        <Linkedin className="h-7 w-7 text-primary" />
-                      </div>
-                      <div>
-                        <p className="font-medium">LinkedIn</p>
-                        
-                      </div>
-                    </div>
-                  </div>
-                        </Link>
+
+                  <Link
+  href="https://linkedin.com/in/abdulmoiz22/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="block"
+>
+  <div className="contact-method bg-card hover:bg-primary/5 p-4 rounded-xl transition-all duration-300 cursor-pointer">
+    <div className="flex flex-col items-center text-center gap-3">
+      <div className="rounded-full bg-primary/10 p-4 contact-icon">
+        <Linkedin className="h-7 w-7 text-primary" />
+      </div>
+      <div>
+        <p className="font-medium">LinkedIn</p>
+        <span className="text-muted-foreground hover:text-primary hover:underline text-sm">
+          linkedin.com/in/abdulmoiz22
+        </span>
+      </div>
+    </div>
+  </div>
+</Link>
 
                   <div className="contact-method bg-card hover:bg-primary/5 p-4 rounded-xl transition-all duration-300">
                     <div className="flex flex-col items-center text-center gap-3">
