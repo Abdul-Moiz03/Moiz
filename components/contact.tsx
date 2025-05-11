@@ -51,9 +51,9 @@ export default function Contact() {
           <p className="mt-4 text-lg text-muted-foreground">
             Have a question or want to work together? Feel free to reach out!
           </p>
-        
+        </div>
 
-        <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-2">
+        <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-1">
           {/* <Card>
             <CardHeader>
               <CardTitle>Get In Touch</CardTitle>
@@ -170,7 +170,6 @@ export default function Contact() {
               </div>
             </CardContent>
           </Card>
-        </div>
         </div>
       </div>
     </section>
