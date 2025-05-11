@@ -20,9 +20,6 @@ export default function Contact() {
           <Card>
             <CardHeader>
               <CardTitle>Contact Information</CardTitle>
-              <CardDescription>
-                Reach out anytime for projects, collaborations, or just to say hello!
-              </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
               <p className="text-muted-foreground">
