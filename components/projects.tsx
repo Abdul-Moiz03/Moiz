@@ -11,24 +11,24 @@ export default function Projects() {
       description:
         "Led front-end development, applying a component-oriented approach and responsive design principles. Spearheaded the optimization of performance, resulting in a notable 10% improvement. Achieved heightened user engagement through streamlined navigation and a user-friendly interface.",
       technologies: ["JavaScript", "React JS", "Material UI 5", "C#", "MySQL", "Docker"],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/Abdul-Moiz03/Titan_FrontEnd",
+      demo: "https://github.com/Abdul-Moiz03/Titan_FrontEnd",
     },
     {
       title: "StreamHive",
       description:
         "Developed a React.js app inspired by YouTube, offering an engaging interface with unique video sections, categories, and channel pages. Notably, integrated seamless video streaming directly within the app.",
       technologies: ["React JS", "Material UI 5", "RapidAPI", "Netlify", "GitHub"],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/Abdul-Moiz03/Yotube-Clone",
+      demo: "https://rococo-daffodil-e75b04.netlify.app/",
     },
     {
       title: "QuerySync",
       description:
         "Created a React QnA app allowing users to post questions and contribute multiple answers to any query.",
       technologies: ["MERN Stack", "MongoDB", "Express", "React", "Node.js"],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/Abdul-Moiz03/Rapid-NED-Facilitator-5th",
+      demo: "https://github.com/Abdul-Moiz03/Rapid-NED-Facilitator-5th",
     },
     {
       title: "Pharmacy Management System",

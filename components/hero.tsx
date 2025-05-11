@@ -29,7 +29,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mb-12">
           <Button asChild size="lg" className="group text-base">
             <Link href="#contact">
-              Contact Me <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              Get in touch <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="text-base">

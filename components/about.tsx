@@ -50,8 +50,9 @@ export default function About() {
                 <Globe className="h-6 w-6 text-primary" />
               </CardHeader>
               <CardContent>
-                <CardTitle className="text-lg">API Integration</CardTitle>
-                <CardDescription>Connecting systems through RESTful APIs</CardDescription>
+         <CardTitle className="text-lg">API & AI Integration</CardTitle>
+<CardDescription>Connecting systems through RESTful APIs and intelligent AI solutions</CardDescription>
+
               </CardContent>
             </Card>
 
