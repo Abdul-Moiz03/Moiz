@@ -54,7 +54,7 @@ export default function Contact() {
         </div>
 
         <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-2">
-          <Card>
+          {/* <Card>
             <CardHeader>
               <CardTitle>Get In Touch</CardTitle>
               <CardDescription>Fill out the form and I'll get back to you as soon as possible.</CardDescription>
@@ -112,7 +112,7 @@ export default function Contact() {
                 </Button>
               </form>
             </CardContent>
-          </Card>
+          </Card> */}
 
           <Card>
             <CardHeader>
