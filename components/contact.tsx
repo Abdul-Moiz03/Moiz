@@ -9,17 +9,18 @@ export default function Contact() {
     <section id="contact" className="py-16 md:py-24">
       <div className="container px-4">
         <div className="mb-12 text-center">
-          <h2 className="mb-2 text-3xl font-bold tracking-tight sm:text-4xl">Contact Me</h2>
+          <h2 className="mb-2 text-3xl font-bold tracking-tight sm:text-4xl">Let’s Connect</h2>
           <div className="mx-auto h-1 w-20 bg-primary"></div>
           <p className="mt-4 text-lg text-muted-foreground">
-            Have a question or want to work together? Feel free to reach out!
+Have something in mind? Let’s make it happen.
+
           </p>
         </div>
 
         <div className="mx-auto max-w-3xl">
           <Card>
             <CardHeader>
-              <CardTitle>Contact Information</CardTitle>
+              <CardTitle>Ways to Reach Me</CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
               <p className="text-muted-foreground">
