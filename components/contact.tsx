@@ -53,7 +53,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-1">
+        <div className="flex justify-center">
           {/* <Card>
             <CardHeader>
               <CardTitle>Get In Touch</CardTitle>
@@ -114,7 +114,7 @@ export default function Contact() {
             </CardContent>
           </Card> */}
 
-          <Card>
+          <Card className="w-full max-w-2xl">
             <CardHeader>
               <CardTitle>Contact Information</CardTitle>
               <CardDescription>Feel free to reach out through any of these channels.</CardDescription>
