@@ -31,8 +31,9 @@ export default function Skills() {
   return (
     <section id="skills" className="py-16 md:py-24 bg-background">
       <div className="container px-4">
-        <div className="mb-16 text-center">
-          <h2 className="mb-2 text-5xl font-bold tracking-tight sm:text-4xl">My Expertise</h2>
+       <div className="mb-12 text-center">
+          <h2 className="mb-2 text-3xl font-bold tracking-tight sm:text-4xl">My Expertise</h2>
+          <div className="mx-auto h-1 w-20 bg-primary"></div>
         </div>
 
         <div className="grid gap-8 md:grid-cols-3">
