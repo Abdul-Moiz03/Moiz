@@ -10,7 +10,6 @@ export default function Experience() {
       location: "Karachi, PK",
       description: [
         "Working as a Software Engineer for Alfardan Exchange, in cross-functional teams, leveraging a tech stack with JavaScript, Angular, Spring Boot, and Java 8.",
-        "Optimized the integration platform to seamlessly integrate a multitude of correspondent APIs, resulting in a 50% reduction in both development cost and time associated with integrating new banks into the system.",
         "Streamlined front-end, back-end, and integration platforms by eliminating 7% of redundancies and dependencies.",
         "Led successful integration of 5+ banks into Qatar's premier exchange system, overseeing client communication.",
         "Reduced querying time of the production application from 15s to 90ms through query optimization and indexing.",

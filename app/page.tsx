@@ -49,7 +49,7 @@ export default function Home() {
         <About />
         <Skills />
         <Projects />
-        <Experience />
+        {/* <Experience /> */}
         <Education />
         <Contact />
         <div className="container flex justify-center py-8">
