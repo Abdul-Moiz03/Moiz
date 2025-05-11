@@ -31,54 +31,62 @@ export default function Contact() {
                 through any of these channels.
               </p>
 
-              <div className="flex items-center gap-4">
-                <div className="rounded-full bg-primary/10 p-3">
-                  <Mail className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <p className="font-medium">Email</p>
-                  <Link
-                    href="mailto:moizrauf03@gmail.com"
-                    className="text-muted-foreground hover:text-primary hover:underline"
-                  >
-                    moizrauf03@gmail.com
-                  </Link>
-                </div>
-              </div>
+              <div className="grid gap-6 md:grid-cols-3">
+                  <div className="contact-method bg-card hover:bg-primary/5 p-4 rounded-xl transition-all duration-300">
+                    <div className="flex flex-col items-center text-center gap-3">
+                      <div className="rounded-full bg-primary/10 p-4 contact-icon">
+                        <Mail className="h-7 w-7 text-primary" />
+                      </div>
+                      <div>
+                        <p className="font-medium">Email</p>
+                        <Link
+                          href="mailto:moizrauf03@gmail.com"
+                          className="text-muted-foreground hover:text-primary hover:underline text-sm"
+                        >
+                          moizrauf03@gmail.com
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
 
-              <div className="flex items-center gap-4">
-                <div className="rounded-full bg-primary/10 p-3">
-                  <Linkedin className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <p className="font-medium">LinkedIn</p>
-                  <Link
-                    href="https://linkedin.com/in/abdulmoiz22"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-primary hover:underline"
-                  >
-                    linkedin.com/in/abdulmoiz22
-                  </Link>
-                </div>
-              </div>
+                  <div className="contact-method bg-card hover:bg-primary/5 p-4 rounded-xl transition-all duration-300">
+                    <div className="flex flex-col items-center text-center gap-3">
+                      <div className="rounded-full bg-primary/10 p-4 contact-icon">
+                        <Linkedin className="h-7 w-7 text-primary" />
+                      </div>
+                      <div>
+                        <p className="font-medium">LinkedIn</p>
+                        <Link
+                          href="https://linkedin.com/in/abdulmoiz22/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-muted-foreground hover:text-primary hover:underline text-sm"
+                        >
+                          linkedin.com/in/abdulmoiz22
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
 
-              <div className="flex items-center gap-4">
-                <div className="rounded-full bg-primary/10 p-3">
-                  <Github className="h-6 w-6 text-primary" />
+                  <div className="contact-method bg-card hover:bg-primary/5 p-4 rounded-xl transition-all duration-300">
+                    <div className="flex flex-col items-center text-center gap-3">
+                      <div className="rounded-full bg-primary/10 p-4 contact-icon">
+                        <Github className="h-7 w-7 text-primary" />
+                      </div>
+                      <div>
+                        <p className="font-medium">GitHub</p>
+                        <Link
+                          href="https://github.com/Abdul-Moiz03"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-muted-foreground hover:text-primary hover:underline text-sm"
+                        >
+                          github.com/Abdul-Moiz03
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <p className="font-medium">GitHub</p>
-                  <Link
-                    href="https://github.com/Abdul-Moiz03"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-primary hover:underline"
-                  >
-                    github.com/Abdul-Moiz03
-                  </Link>
-                </div>
-              </div>
 
               <div className="mt-8 pt-6 border-t border-primary/10">
                   <div className="contact-availability bg-gradient-to-r from-primary/10 to-primary/5 rounded-lg p-4 text-center">
