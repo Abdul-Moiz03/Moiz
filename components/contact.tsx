@@ -21,7 +21,7 @@ export default function Contact() {
             <CardHeader>
               <CardTitle>Contact Information</CardTitle>
               <CardDescription>
-                Feel free to reach out anytime for projects, collaborations, or just to say hello!
+                Reach out anytime for projects, collaborations, or just to say hello!
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
